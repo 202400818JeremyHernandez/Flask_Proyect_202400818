@@ -11,7 +11,7 @@ nuevoParrafo = document.createElement("p");
 nuevoParrafo.textContent = "Soy generado desde JS";
 document.body.appendChild(nuevoParrafo);
 */
-const API_URL = "https://flask-backend-kbxs.onrender.com/movies/";
+const API_URL = "https://flask-backend-kbxs.onrender.com/movies";
 
 /* UTILIDADES  */
 async function fetchJSON(url, options = {}) {
